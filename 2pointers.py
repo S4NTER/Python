@@ -12,5 +12,6 @@ def max_area(nums):
         else:
             right -= 1
     return max_area
-nums = [8, 7, 6, 5, 4, 3, 2, 1]
+nums = [1, 8, 6, 2, 5, 4, 8, 7]
 print(f"Максимальная площадь: {max_area(nums)}")
+
